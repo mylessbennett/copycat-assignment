@@ -1,0 +1,100 @@
+* , html {
+  box-sizing: border-box;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #06D6A0;
+  font-family: "helvetica", sans-serif;
+}
+
+article {
+  margin: 0 5%;
+}
+
+.logo {
+  display: inline-block;
+  font-family: "helvetica, sans-serif";
+  color: white;
+  padding: 5px 5px 5px 10px;
+}
+
+.navigation {
+  font-family: "helvetica, sans-serif";
+  padding: 15px 0px 0px 180px;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "helvetica", sans-serif;
+}
+
+.welcome {
+  background-color: #26547C;
+  display: grid;
+  grid-template-columns: 60% 30%;
+}
+
+.home-image img {
+  width: 100%;
+}
+
+.meowcome {
+  color: white;
+  padding: 10px;
+}
+
+.cats {
+  background-color: #FFD166;
+  padding: 10px;
+}
+
+.products {
+  background-color: #F2F2F2;
+}
+
+.products img {
+  width: 100%;
+  border: 2px solid black;
+}
+.products ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  grid-gap: 0.5em;
+  padding: 10px;
+}
+
+.about {
+  background-color: #26547C;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.about h2 {
+  color: tomato;
+  text-align: center;
+}
+
+.about p {
+  color: white;
+  grid-column: 1 / 4;
+}
+
+footer {
+  background-color: #06D6A0;
+  padding: 20px;
+  text-align: right;
+  font-size: 1.2em;
+  font-family: "helvetica", sans-serif;
+}
